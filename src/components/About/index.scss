@@ -7,25 +7,6 @@ $main-color: #fda50f;
   align-items: center;
   position: relative;
 }
-.main-header {
-  text-align: center;
-  position: relative;
-  color: #fda50f;
-  .head {
-    font-size: 90px;
-    letter-spacing: 2px;
-    opacity: 0;
-    animation: fadeInDown 1s 0.5s forwards;
-  }
-  .sub-head {
-    margin-top: -30px;
-    letter-spacing: 4px;
-    font-size: 30px;
-    opacity: 0;
-    color: white;
-    animation: fadeInDown 1s 1s forwards;
-  }
-}
 
 .my-info {
   position: absolute;

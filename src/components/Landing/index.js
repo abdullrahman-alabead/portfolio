@@ -14,7 +14,7 @@ function toggle(e){
     document.querySelector('.project-info').style.bottom = "0px"
     document.querySelector(".toggleBtn").style.transform = "rotate(180deg)"
   }else{
-    document.querySelector('.project-info').style.bottom = "-40%"
+    document.querySelector('.project-info').style.bottom = "-285px"
     document.querySelector(".toggleBtn").style.transform = "rotate(0deg)"
   }
   setToggled(prev => !prev)

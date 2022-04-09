@@ -22,15 +22,15 @@ ul {
 .main-header {
   text-align: center;
   position: relative;
-  color: #60f4d1;
+  color: $main-color;
   .head {
-    font-size: 90px;
+    font-size: 5rem;
     letter-spacing: 2px;
   }
   .sub-head {
     margin-top: -30px;
     letter-spacing: 4px;
-    font-size: 30px;
+    font-size: 2.5rem;
     opacity: 0.4;
     color: white;
   }
