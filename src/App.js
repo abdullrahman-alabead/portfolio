@@ -12,11 +12,11 @@ function App() {
     <BrowserRouter>
       <Header />
     <Routes>
-      <Route path='/' exact="true" element={<Landing />} />
-      <Route path='/about'  element={<About />} />
-      <Route path='/skills'  element={<Skills />} />
-      <Route path='/projects'  element={<Projects />} />
-      <Route path='/contact'  element={<Contact />} />
+      <Route path='nolan-sPortfolio/' element={<Landing />} />
+      <Route path='nolan-sPortfolio/about'  element={<About />} />
+      <Route path='nolan-sPortfolio/skills'  element={<Skills />} />
+      <Route path='nolan-sPortfolio/projects'  element={<Projects />} />
+      <Route path='nolan-sPortfolio/contact'  element={<Contact />} />
     </Routes>
     </BrowserRouter>
   );
