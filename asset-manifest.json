@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nolan-sPortfolio/static/css/main.56d884ad.css",
+    "main.js": "/nolan-sPortfolio/static/js/main.95a53d52.js",
+    "static/media/Shoes-Slider.png": "/nolan-sPortfolio/static/media/Shoes-Slider.728b8567b280e0f3d8fa.png",
+    "static/media/Elzero-Template.png": "/nolan-sPortfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
+    "static/media/Chain-Template.png": "/nolan-sPortfolio/static/media/Chain-Template.2ae4f3ced8523002133e.png",
+    "static/media/Todo-List.png": "/nolan-sPortfolio/static/media/Todo-List.b67237993e5679840cff.png",
+    "static/media/SFMonoRegular.otf": "/nolan-sPortfolio/static/media/SFMonoRegular.1d07f933cdf138950a80.otf",
+    "static/media/Tangerine_Regular.ttf": "/nolan-sPortfolio/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
+    "static/media/AlegreSans-Regular.ttf": "/nolan-sPortfolio/static/media/AlegreSans-Regular.c1e01da92d3f0ffb7f66.ttf",
+    "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
+    "index.html": "/nolan-sPortfolio/index.html",
+    "main.56d884ad.css.map": "/nolan-sPortfolio/static/css/main.56d884ad.css.map",
+    "main.95a53d52.js.map": "/nolan-sPortfolio/static/js/main.95a53d52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56d884ad.css",
+    "static/js/main.95a53d52.js"
+  ]
+}
