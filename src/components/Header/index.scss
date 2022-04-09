@@ -1,0 +1,35 @@
+$main-color: #fda50f;
+header {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+  -webkit-box-shadow: 0px 14px 44px -19px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 44px -19px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 44px -19px rgba(0, 0, 0, 0.75);
+  .logo {
+    font-family: "Darkest Saturday";
+    font-size: 32px;
+    color: $main-color;
+  }
+  .nav-links {
+    display: flex;
+    .link {
+      span {
+        color: $main-color;
+      }
+      a {
+        padding: 10px 20px;
+        display: block;
+        letter-spacing: 1.5px;
+        color: #909bb9;
+        transition-duration: 0.3s;
+        &:hover {
+          color: $main-color;
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+}

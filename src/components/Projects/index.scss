@@ -1,0 +1,107 @@
+$main-color: #fda50f;
+.projects-boxes {
+  margin-top: 250px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s ease-out;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    .info-box {
+      height: 170px;
+      border-radius: 14px;
+      background-color: #112240;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      animation: skillFadeInUp 2s;
+      width: 100%;
+      .project-info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+
+        h3 {
+          font-size: 24px;
+          margin-bottom: 12px;
+          color: $main-color;
+          letter-spacing: 2px;
+        }
+        p {
+          font-size: 22px;
+          letter-spacing: 2px;
+          color: #8c98b6;
+          margin-bottom: 20px;
+          font-family: "Alegre Sans";
+        }
+        a {
+          color: #8c98b6;
+          position: relative;
+          transition: 0.3s ease-out;
+          width: fit-content;
+
+          &::after {
+            content: "";
+            width: 0;
+            height: 0.5px;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            background-color: $main-color;
+            transition: 0.3s ease-out;
+          }
+          &:hover {
+            color: $main-color;
+            &::after {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    img {
+      width: 50%;
+      position: absolute;
+      top: -30%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      filter: grayscale(1);
+      border-radius: 5px;
+      transition: 0.3s ease-out;
+      box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+      animation: imgFadeInDown 3s;
+    }
+    &:hover {
+      img {
+        filter: grayscale(0);
+        top: -110%;
+        width: 100%;
+      }
+      transform: translateY(-10px);
+      box-shadow: 0 4px 25px rgb(0 0 0 / 40%);
+    }
+  }
+}
+
+@keyframes imgFadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -100px);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(-50%, -100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0px);
+  }
+}
