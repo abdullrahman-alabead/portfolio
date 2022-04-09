@@ -26,14 +26,14 @@ function toggle(e){
       <div className="project-info">
         <div className="btn"  onClick={toggle}>
         <div className="toggleBtn"><FontAwesomeIcon icon={faArrowUp} /></div>
-        <p className="info-header">This Project was built with:</p>
+        <p className="info-header">This Project was built with</p>
         </div>
           <ul>
             <li><p>-HTML</p></li>
             <li><p>-CSS</p></li>
             <li><p>-JavaScript</p></li>
             <li><p>-React (& React Router v6)</p></li>
-            <li ><p className="depend">Dependincies:</p></li>
+            <li ><p className="depend">Dependincies</p></li>
             <li><p>-emailJs</p></li>
             <li><p>-animate.js</p></li>
             <li><p>-Fontawesome</p></li>
