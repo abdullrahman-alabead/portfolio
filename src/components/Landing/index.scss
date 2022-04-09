@@ -54,6 +54,7 @@ $main-color: #fda50f;
     padding: 30px;
     opacity: 0;
     animation: fadeInLeft 1s 1.7s forwards;
+    transition: all 1s;
     .info-header {
       font-size: 22px;
       color: $main-color;
@@ -95,6 +96,9 @@ $main-color: #fda50f;
       border-right: 2px solid $main-color;
       border-bottom: 2px solid $main-color;
     }
+    .toggleBtn {
+      display: none;
+    }
   }
 }
 
@@ -110,17 +114,24 @@ $main-color: #fda50f;
     .project-info {
       position: absolute;
       top: initial;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       padding: 30px;
-      bottom: 20px;
-      opacity: 1;
-      animation: none;
+      bottom: -40%;
+      opacity: 0;
+      animation: fadeIn 1s 2s forwards;
+      width: 100%;
       .info-header {
         font-size: 22px;
         color: $main-color;
         margin-bottom: 15px;
       }
-
+      .toggleBtn {
+        color: $main-color;
+        display: initial;
+        font-size: 20px;
+        transition: 1s;
+      }
       ul li p {
         color: white;
         font-size: 18px;
