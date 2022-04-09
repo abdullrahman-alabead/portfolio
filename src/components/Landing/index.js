@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import "./index.scss";
 import "animate.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Landing() {
   return (
-    <div className="landing">
+    <div className="landing container">
       
       <div className="project-info">
         <p className="info-header">This Project was built with:</p>

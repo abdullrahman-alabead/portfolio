@@ -21,7 +21,6 @@ header {
       }
       a {
         padding: 10px 20px;
-        display: block;
         letter-spacing: 1.5px;
         color: #909bb9;
         transition-duration: 0.3s;
@@ -30,6 +29,21 @@ header {
           transform: translateY(-5px);
         }
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+  a {
+    span {
+      display: none;
     }
   }
 }
