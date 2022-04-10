@@ -1,9 +1,25 @@
 import "./index.scss";
-import { Link } from "react-router-dom";
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
+  let [toggled, setToggled] = React.useState(false) 
 
+  function toggle(){
+    if(toggled){
+      document.querySelector('.my-info').style.left = "0px"
+      document.querySelector(".toggleBtn").style.transform = "rotate(180deg)"
+      document.querySelector('.q-section').style.filter = 'blur(8px)'
 
+    }else{
+      document.querySelector('.my-info').style.left = "-255px"
+      document.querySelector(".toggleBtn").style.transform = "rotate(0deg)"
+      document.querySelector('.q-section').style.filter = 'blur(0px)'
+    }
+    setToggled(prev => !prev)
+  }
+  
   return (
     <>
     <div className="container about">
@@ -12,6 +28,10 @@ export default function About() {
       <p className="sub-head">Who is Nolan?</p>
       </div>
       <div className="my-info">
+        <div className="toggleSlide" onClick={toggle}>
+          <p>Personnal info</p>
+          <div className="toggleBtn"><FontAwesomeIcon icon={faArrowRight} /></div>
+        </div>
         <ul className="q-list">
           <li className="q-box">
             <p className="question">Who Are You ?</p>

@@ -64,6 +64,7 @@ $main-color: #fda50f;
   flex-direction: column;
   text-align: center;
   margin-top: 50px;
+  transition-duration: 0.8s;
   .q {
     padding-bottom: 30px;
     text-align: start;
@@ -106,6 +107,76 @@ $main-color: #fda50f;
       }
       &:hover::after {
         width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .toggleSlide {
+    color: $main-color;
+    display: block;
+    text-align: center;
+    writing-mode: vertical-lr;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    .toggleBtn {
+      transition: 0.4s;
+    }
+  }
+  .my-info {
+    position: fixed;
+    top: 50vh;
+    left: -255px;
+    padding: 20px;
+    opacity: 0;
+    animation: fadeIn 1s 2s forwards;
+    transition-duration: 1s;
+    z-index: 2;
+    .q-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: 0px;
+        width: 20px;
+        height: 20px;
+        border-right: 2px solid $main-color;
+        border-top: 2px solid $main-color;
+        border-top-right-radius: 5px;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        right: 0px;
+        width: 20px;
+        height: 20px;
+        border-right: 2px solid $main-color;
+        border-bottom: 2px solid $main-color;
+        border-bottom-right-radius: 5px;
+      }
+      .q-box {
+        max-width: 300px;
+        text-align: start;
+        .question {
+          font-size: 1rem;
+          color: #fda50f;
+          margin-bottom: 5px;
+          letter-spacing: 3px;
+        }
+        .answer {
+          font-size: 0.8rem;
+          font-family: "Alegre Sans";
+          color: #8690ae;
+        }
       }
     }
   }
