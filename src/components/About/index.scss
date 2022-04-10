@@ -14,6 +14,9 @@ $main-color: #fda50f;
   left: 25px;
   opacity: 0;
   animation: fadeIn 1s 2s forwards;
+  .toggleSlide {
+    display: none;
+  }
   .q-list {
     display: flex;
     flex-direction: column;
@@ -113,20 +116,20 @@ $main-color: #fda50f;
 }
 
 @media (max-width: 767px) {
-  .toggleSlide {
-    color: $main-color;
-    display: block;
-    text-align: center;
-    writing-mode: vertical-lr;
-    position: absolute;
-    right: -25px;
-    top: 50%;
-    transform: translateY(-50%);
-    .toggleBtn {
-      transition: 0.4s;
-    }
-  }
   .my-info {
+    .toggleSlide {
+      color: $main-color;
+      display: block;
+      text-align: center;
+      writing-mode: vertical-lr;
+      position: absolute;
+      right: -25px;
+      top: 50%;
+      transform: translateY(-50%);
+      .toggleBtn {
+        transition: 0.4s;
+      }
+    }
     position: fixed;
     top: 50vh;
     left: -255px;

@@ -87,6 +87,9 @@ $main-color: #fda50f;
   justify-content: center;
   opacity: 0;
   animation: fadeInRight 1s 1.7s forwards;
+  .toggleS {
+    display: none;
+  }
   p {
     font-size: 28px;
     color: $main-color;
@@ -139,6 +142,7 @@ $main-color: #fda50f;
     color: $main-color;
     transition-duration: 0.7s;
     .toggleS {
+      display: block;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -167,6 +171,9 @@ $main-color: #fda50f;
       font-size: 18px;
     }
     .other-skills-box {
+      > p {
+        display: none;
+      }
       &::after {
         content: "";
         top: 0;
