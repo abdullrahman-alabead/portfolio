@@ -37,6 +37,9 @@ header {
   header {
     flex-direction: column;
     justify-content: center;
+    .nav-links {
+      justify-content: space-between;
+    }
   }
   .logo {
     margin-bottom: 10px;

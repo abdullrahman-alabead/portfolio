@@ -1,6 +1,9 @@
 $main-color: #fda50f;
 .contact {
   overflow: visible;
+  .main-header .head {
+    font-size: 4rem;
+  }
 }
 .contact-page {
   display: flex;
@@ -149,6 +152,104 @@ $main-color: #fda50f;
       border-right: 3px solid $main-color;
       bottom: -10px;
       right: -20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-page .quotes {
+    display: none;
+  }
+  .form-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 1s 1.5s forwards;
+    .form-p {
+      text-align: start;
+      color: #{$main-color};
+      font-size: 0.8srem;
+      font-weight: bold;
+      font-family: "Alegre Sans";
+      font-size: 1rem;
+      letter-spacing: 2px;
+      position: absolute;
+      top: -30px;
+      left: 0;
+    }
+    .form-fields {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      font-family: "Alegre Sans";
+      input,
+      textarea {
+        width: 100%;
+        font-family: "SF Mono";
+        color: #{$main-color};
+        background-color: #112240;
+        border: none;
+        padding: 5px 8px;
+        font-size: 0.8rem;
+        &:focus {
+          outline: none;
+        }
+      }
+      .name-email {
+        display: flex;
+        gap: 20px;
+      }
+      .send-button {
+        padding: 10px 15px;
+        width: fit-content;
+        background-color: #112240;
+        color: $main-color;
+        font-size: 1rem;
+        justify-self: center;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          height: 2px;
+          width: 0px;
+          background-color: $main-color;
+          bottom: 0;
+          left: 0;
+          transition: 0.3s ease-out;
+        }
+        &:hover {
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &::after {
+      display: none;
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-top: 3px solid $main-color;
+      border-right: 3px solid $main-color;
+      top: -40px;
+      right: -40px;
+    }
+    &::before {
+      display: none;
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-bottom: 3px solid $main-color;
+      border-left: 3px solid $main-color;
+      bottom: -20px;
+      left: -40px;
     }
   }
 }

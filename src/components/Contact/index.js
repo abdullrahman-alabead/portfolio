@@ -40,7 +40,7 @@ function sendEmail(e){
             />
             <textarea
               name="message"
-              placeholder="What Do You Wanna Tell Me ?..."
+              placeholder="What's the message ?"
               required
             />
             <button className="send-button">SEND</button>

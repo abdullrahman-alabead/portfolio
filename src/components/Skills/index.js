@@ -1,8 +1,26 @@
+import React from "react"
 import { faCss3, faGit, faGitAlt, faHtml5, faJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./index.scss"
 
 export default function Skills() {
+  let [toggled, setToggled] = React.useState(false) 
+
+  function toggle(){
+    if(toggled){
+      document.querySelector('.other-skills').style.right = "0px"
+      document.querySelector(".toggleBtn").style.transform = "rotate(180deg)"
+      document.querySelector('.skills-boxes').style.filter = 'blur(8px)'
+
+    }else{
+      document.querySelector('.other-skills').style.right = "-200px"
+      document.querySelector(".toggleBtn").style.transform = "rotate(0deg)"
+      document.querySelector('.skills-boxes').style.filter = 'blur(0px)'
+    }
+    setToggled(prev => !prev)
+  }
+
   return (
     <div className="skills container" >
       <div className="main-header">
@@ -50,10 +68,15 @@ export default function Skills() {
             <FontAwesomeIcon icon={faGitAlt} className="skill-icon git" />
         <p>Git</p>
           </div>
-        <p className="skill-desc">Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</p>
+        <p className="skill-desc">Git is a version control system, usually used for coordinating work among programmers collaboratively developing source code during software development.</p>
         </div>
+        
       </div>
       <div className="other-skills">
+        <div className="toggleS" onClick={toggle}>
+          <p>Other Qualities</p>
+          <div className="toggleBtn"><FontAwesomeIcon icon={faArrowLeft} /></div>
+        </div>
         <div className="other-skills-box">
         <p>Other Qualities:</p>
         <ul className="other-skills-list">

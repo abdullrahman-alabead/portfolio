@@ -10,6 +10,7 @@ $main-color: #fda50f;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  transition-duration: 1s;
   .skill-box {
     position: relative;
     padding: 10px 20px;
@@ -119,6 +120,73 @@ $main-color: #fda50f;
       position: absolute;
       border-left: 2px solid $main-color;
       border-bottom: 2px solid $main-color;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .other-skills {
+    position: fixed;
+    top: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0;
+    right: -200px;
+    animation: fadeIn 1s 1.7s forwards;
+    color: $main-color;
+    transition-duration: 0.7s;
+    .toggleS {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -60px;
+      text-align: center;
+      writing-mode: vertical-rl;
+      .toggleBtn {
+        transition-duration: 0.5s;
+      }
+      p {
+        font-size: 1.4rem;
+        margin: 0%;
+      }
+    }
+    p {
+      font-size: 1.8rem;
+      color: $main-color;
+      margin-bottom: 20px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      color: #8c98b6;
+      gap: 5px;
+      font-size: 18px;
+    }
+    .other-skills-box {
+      &::after {
+        content: "";
+        top: 0;
+        left: -15px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        border-left: 2px solid $main-color;
+        border-top: 2px solid $main-color;
+      }
+      &::before {
+        content: "";
+        bottom: 0;
+        left: -15px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        border-left: 2px solid $main-color;
+        border-bottom: 2px solid $main-color;
+      }
     }
   }
 }
