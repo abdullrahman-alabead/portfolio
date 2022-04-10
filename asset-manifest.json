@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nolan-sPortfolio/static/css/main.ffef48cb.css",
+    "main.css": "/nolan-sPortfolio/static/css/main.b9d15294.css",
     "main.js": "/nolan-sPortfolio/static/js/main.05426248.js",
     "static/media/Shoes-Slider.png": "/nolan-sPortfolio/static/media/Shoes-Slider.728b8567b280e0f3d8fa.png",
     "static/media/Elzero-Template.png": "/nolan-sPortfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
@@ -11,11 +11,11 @@
     "static/media/AlegreSans-Regular.ttf": "/nolan-sPortfolio/static/media/AlegreSans-Regular.c1e01da92d3f0ffb7f66.ttf",
     "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
     "index.html": "/nolan-sPortfolio/index.html",
-    "main.ffef48cb.css.map": "/nolan-sPortfolio/static/css/main.ffef48cb.css.map",
+    "main.b9d15294.css.map": "/nolan-sPortfolio/static/css/main.b9d15294.css.map",
     "main.05426248.js.map": "/nolan-sPortfolio/static/js/main.05426248.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffef48cb.css",
+    "static/css/main.b9d15294.css",
     "static/js/main.05426248.js"
   ]
 }
