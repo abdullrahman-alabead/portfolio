@@ -4,7 +4,8 @@ $main-color: #fda50f;
   margin-top: 250px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 60px;
   .box {
     position: relative;
     display: flex;

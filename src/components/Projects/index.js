@@ -3,6 +3,7 @@ import Elzero from "../../assets/images/Elzero-Template.png";
 import ToDo from "../../assets/images/Todo-List.png";
 import Chain from "../../assets/images/Chain-Template.png";
 import Shoes from "../../assets/images/Shoes-Slider.png";
+import Meal from '../../assets/images/Meal-Gen.png'
 
 export default function Projects() {
   return (
@@ -87,6 +88,26 @@ export default function Projects() {
                 <p>a simple Shoes Slider made with JavaScript</p>
                 <a
                   href="https://github.com/whitefocus/Shoes-Slider"
+                  target="blank"
+                >
+                  Code Files
+                </a>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://whitefocus.github.io/Random-Meal-Generator/"
+          target="_blank"
+        >
+          <div className="box">
+            <img src={Meal} />
+            <div className="info-box">
+              <div className="project-info">
+                <h3 className="project-name">A Random Meal Generator</h3>
+                <p>Generating a new meal using TheMealDb api</p>
+                <a
+                  href="https://github.com/whitefocus/Random-Meal-Generator"
                   target="blank"
                 >
                   Code Files
