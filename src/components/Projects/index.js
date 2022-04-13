@@ -13,7 +13,7 @@ export default function Projects() {
       </div>
       <div className="projects-boxes">
         <a
-          href="https://whitefocus.github.io/NolanWhitesProject-1/"
+          href="https://whitefocus.github.io/Simple-To-Do-List/"
           target="_blank"
         >
           <div className="box">
@@ -26,7 +26,7 @@ export default function Projects() {
                   Tasks
                 </p>
                 <a
-                  href="https://github.com/whitefocus/NolanWhitesProject-1"
+                  href="https://github.com/whitefocus/Simple-To-Do-List"
                   target="blank"
                 >
                   Code Files
@@ -36,7 +36,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://whitefocus.github.io/NolanWhitesProject-2/"
+          href="https://whitefocus.github.io/Elzero-Template/"
           target="_blank"
         >
           <div className="box">
@@ -46,7 +46,7 @@ export default function Projects() {
                 <h3 className="project-name">El-Zero Template</h3>
                 <p>an HTML, CSS & JavaScript Template</p>
                 <a
-                  href="https://github.com/whitefocus/NolanWhitesProject-2"
+                  href="https://github.com/whitefocus/Elzero-Template"
                   target="blank"
                 >
                   Code Files
@@ -56,7 +56,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://whitefocus.github.io/NolanWhitesProject-3/"
+          href="https://whitefocus.github.io/Chain-Template/"
           target="_blank"
         >
           <div className="box">
@@ -66,7 +66,7 @@ export default function Projects() {
                 <h3 className="project-name">Chain Template</h3>
                 <p>an HTML, CSS & JavaScript Template</p>
                 <a
-                  href="https://github.com/whitefocus/NolanWhitesProject-3"
+                  href="https://github.com/whitefocus/Chain-Template"
                   target="blank"
                 >
                   Code Files
@@ -76,7 +76,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://whitefocus.github.io/NolanWhitesProject-4/"
+          href="https://whitefocus.github.io/Shoes-Slider/"
           target="_blank"
         >
           <div className="box">
@@ -86,7 +86,7 @@ export default function Projects() {
                 <h3 className="project-name">A Shoes Slider Template</h3>
                 <p>a simple Shoes Slider made with JavaScript</p>
                 <a
-                  href="https://github.com/whitefocus/NolanWhitesProject-4"
+                  href="https://github.com/whitefocus/Shoes-Slider"
                   target="blank"
                 >
                   Code Files
