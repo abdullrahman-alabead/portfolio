@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/nolan-sPortfolio/static/css/main.9697273f.css",
-    "main.js": "/nolan-sPortfolio/static/js/main.eea8befc.js",
+    "main.js": "/nolan-sPortfolio/static/js/main.56e759ae.js",
     "static/media/Meal-Gen.png": "/nolan-sPortfolio/static/media/Meal-Gen.a78a9991a1f6d6db1610.png",
     "static/media/Shoes-Slider.png": "/nolan-sPortfolio/static/media/Shoes-Slider.728b8567b280e0f3d8fa.png",
     "static/media/Elzero-Template.png": "/nolan-sPortfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
     "static/media/Chain-Template.png": "/nolan-sPortfolio/static/media/Chain-Template.2ae4f3ced8523002133e.png",
+    "static/media/Chat-App.png": "/nolan-sPortfolio/static/media/Chat-App.df86b8284dc0f38a4f65.png",
     "static/media/Todo-List.png": "/nolan-sPortfolio/static/media/Todo-List.b67237993e5679840cff.png",
     "static/media/SFMonoRegular.otf": "/nolan-sPortfolio/static/media/SFMonoRegular.1d07f933cdf138950a80.otf",
     "static/media/Tangerine_Regular.ttf": "/nolan-sPortfolio/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
@@ -13,10 +14,10 @@
     "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
     "index.html": "/nolan-sPortfolio/index.html",
     "main.9697273f.css.map": "/nolan-sPortfolio/static/css/main.9697273f.css.map",
-    "main.eea8befc.js.map": "/nolan-sPortfolio/static/js/main.eea8befc.js.map"
+    "main.56e759ae.js.map": "/nolan-sPortfolio/static/js/main.56e759ae.js.map"
   },
   "entrypoints": [
     "static/css/main.9697273f.css",
-    "static/js/main.eea8befc.js"
+    "static/js/main.56e759ae.js"
   ]
 }
