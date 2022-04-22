@@ -4,6 +4,7 @@ import ToDo from "../../assets/images/Todo-List.png";
 import Chain from "../../assets/images/Chain-Template.png";
 import Shoes from "../../assets/images/Shoes-Slider.png";
 import Meal from '../../assets/images/Meal-Gen.png'
+import Chat from '../../assets/images/Chat-App.png'
 
 export default function Projects() {
   return (
@@ -28,6 +29,28 @@ export default function Projects() {
                 </p>
                 <a
                   href="https://github.com/whitefocus/Simple-To-Do-List"
+                  target="blank"
+                >
+                  Code Files
+                </a>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://whitefocus.github.io/Simple-Chat-App/"
+          target="_blank"
+        >
+          <div className="box">
+            <img src={Chat} />
+            <div className="info-box">
+              <div className="project-info">
+                <h3 className="project-name">Chat-App</h3>
+                <p>
+                  a Chat-App using React, Sass, and Firebase
+                </p>
+                <a
+                  href="https://github.com/whitefocus/Simple-Chat-App"
                   target="blank"
                 >
                   Code Files
