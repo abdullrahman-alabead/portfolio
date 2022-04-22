@@ -31,10 +31,21 @@ $main-color: #fda50f;
         height: 100%;
 
         h3 {
+          position: relative;
           font-size: 24px;
           margin-bottom: 12px;
           color: $main-color;
           letter-spacing: 2px;
+          &.vpn-required::after {
+            content: "VPN Requierd(in Syria)";
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            font-size: 1.1rem;
+            opacity: 0.5;
+            font-family: "Alegre Sans";
+          }
         }
         p {
           font-size: 22px;

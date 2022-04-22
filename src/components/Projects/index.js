@@ -45,7 +45,7 @@ export default function Projects() {
             <img src={Chat} />
             <div className="info-box">
               <div className="project-info">
-                <h3 className="project-name">Chat-App</h3>
+                <h3 className="project-name vpn-required">Chat-App</h3>
                 <p>
                   a Chat-App using React, Sass, and Firebase
                 </p>
