@@ -5,6 +5,7 @@ import Chain from "../../assets/images/Chain-Template.png";
 import Shoes from "../../assets/images/Shoes-Slider.png";
 import Meal from '../../assets/images/Meal-Gen.png'
 import Chat from '../../assets/images/Chat-App.png'
+import Under from '../../assets/images/under.png'
 
 export default function Projects() {
   return (
@@ -136,6 +137,16 @@ export default function Projects() {
                   Code Files
                 </a>
               </div>
+            </div>
+          </div>
+        </a>
+        <a
+          
+        >
+          <div className="box under-construction">
+            <img src={Under} />
+            <div className="info-box">
+              <p className="text">Coming Soon...</p>
             </div>
           </div>
         </a>

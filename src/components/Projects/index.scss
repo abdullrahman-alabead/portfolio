@@ -101,6 +101,38 @@ $main-color: #fda50f;
       transform: translateY(-10px);
       box-shadow: 0 4px 25px rgb(0 0 0 / 40%);
     }
+    &.under-construction {
+      filter: grayscale(1);
+      .info-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text {
+          position: relative;
+          font-size: 2.5rem;
+          color: $main-color;
+          &::after {
+            // content: attr("data-name");
+            content: "Social Media Clone";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -20px;
+            font-size: 1rem;
+            width: 100%;
+          }
+        }
+      }
+      &:hover {
+        animation: flash 1s ease-out;
+        img {
+          filter: grayscale(0);
+          top: -30%;
+          width: 50%;
+        }
+        transform: translateY(0px);
+      }
+    }
   }
 }
 
