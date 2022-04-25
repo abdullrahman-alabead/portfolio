@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nolan-sPortfolio/static/css/main.2b72c4fb.css",
+    "main.css": "/nolan-sPortfolio/static/css/main.f136de35.css",
     "main.js": "/nolan-sPortfolio/static/js/main.c56493d6.js",
     "static/media/Meal-Gen.png": "/nolan-sPortfolio/static/media/Meal-Gen.a78a9991a1f6d6db1610.png",
     "static/media/Shoes-Slider.png": "/nolan-sPortfolio/static/media/Shoes-Slider.728b8567b280e0f3d8fa.png",
@@ -14,11 +14,11 @@
     "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
     "static/media/under.png": "/nolan-sPortfolio/static/media/under.8ee45f176e211957437b.png",
     "index.html": "/nolan-sPortfolio/index.html",
-    "main.2b72c4fb.css.map": "/nolan-sPortfolio/static/css/main.2b72c4fb.css.map",
+    "main.f136de35.css.map": "/nolan-sPortfolio/static/css/main.f136de35.css.map",
     "main.c56493d6.js.map": "/nolan-sPortfolio/static/js/main.c56493d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b72c4fb.css",
+    "static/css/main.f136de35.css",
     "static/js/main.c56493d6.js"
   ]
 }
