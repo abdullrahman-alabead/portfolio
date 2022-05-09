@@ -142,7 +142,8 @@ export default function Projects() {
           </div>
         </a>
         <a
-          
+          href="https://github.com/whitefocus/Random-Meal-Generator"
+          target="blank"
         >
           <div className="box">
             <img src={Club} />
