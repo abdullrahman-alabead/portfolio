@@ -149,7 +149,7 @@ export default function Projects() {
             <img src={Club} />
             <div className="info-box">
               <div className="project-info">
-                <h3 className="project-name">The Club</h3>
+                <h3 className="project-name vpn-required">The Club</h3>
                 <p>A Social Media Website, more info can be found on github</p>
                 <a
                   href="https://github.com/whitefocus/the-club"
