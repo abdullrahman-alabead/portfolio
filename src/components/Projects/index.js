@@ -6,6 +6,7 @@ import Shoes from "../../assets/images/Shoes-Slider.png";
 import Meal from '../../assets/images/Meal-Gen.png'
 import Chat from '../../assets/images/Chat-App.png'
 import Under from '../../assets/images/under.png'
+import Club from '../../assets/images/the-club.png'
 
 export default function Projects() {
   return (
@@ -143,10 +144,19 @@ export default function Projects() {
         <a
           
         >
-          <div className="box under-construction">
-            <img src={Under} />
+          <div className="box">
+            <img src={Club} />
             <div className="info-box">
-              <p className="text">Coming Soon...</p>
+              <div className="project-info">
+                <h3 className="project-name">The Club</h3>
+                <p>A Social Media Website, more info can be found on github</p>
+                <a
+                  href="https://github.com/whitefocus/the-club"
+                  target="blank"
+                >
+                  Code Files
+                </a>
+              </div>
             </div>
           </div>
         </a>
