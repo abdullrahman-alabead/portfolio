@@ -142,7 +142,7 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://github.com/whitefocus/Random-Meal-Generator"
+          href="https://whitefocus.github.io/the-club/"
           target="blank"
         >
           <div className="box">
