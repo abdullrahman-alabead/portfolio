@@ -2,6 +2,8 @@ import React from "react"
 import { faCss3, faGit, faGitAlt, faHtml5, faJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Firebase from '../../assets/images/firebase.png'
+import Redux from '../../assets/images/redux.png'
 import "./index.scss"
 
 export default function Skills() {
@@ -69,6 +71,20 @@ export default function Skills() {
         <p>Git</p>
           </div>
         <p className="skill-desc">Git is a version control system, usually used for coordinating work among programmers collaboratively developing source code during software development.</p>
+        </div>
+        <div className="skill-box">
+        <div className="skill-info">
+          <img className="skill-icon" src={Redux} />
+        <p>Redux</p>
+          </div>
+        <p className="skill-desc">Redux is an open-source JavaScript library for managing and centralizing application state.</p>
+        </div>
+        <div className="skill-box">
+        <div className="skill-info">
+          <img className="skill-icon" src={Firebase} />
+        <p>Firebase</p>
+          </div>
+        <p className="skill-desc">Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps.</p>
         </div>
         
       </div>

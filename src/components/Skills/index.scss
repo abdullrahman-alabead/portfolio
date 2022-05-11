@@ -41,6 +41,10 @@ $main-color: #fda50f;
       gap: 10px;
       align-items: center;
       color: #8c98b6;
+      img {
+        width: 50px;
+        margin-bottom: 0;
+      }
     }
     .skill-icon {
       font-size: 42px;
