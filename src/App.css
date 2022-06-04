@@ -1,0 +1,45 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Darkest Saturday";
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main-header {
+  text-align: center;
+  position: relative;
+  color: #fda50f;
+}
+
+.main-header .head {
+  font-size: 5rem;
+  letter-spacing: 2px;
+  opacity: 0;
+  -webkit-animation: fadeInDown 1s 0.5s forwards;
+          animation: fadeInDown 1s 0.5s forwards;
+}
+
+.main-header .sub-head {
+  margin-top: -30px;
+  letter-spacing: 4px;
+  font-size: 2.5rem;
+  opacity: 0;
+  color: #b5bac0;
+  -webkit-animation: fadeInDown 1s 1s forwards;
+          animation: fadeInDown 1s 1s forwards;
+}
+/*# sourceMappingURL=App.css.map */

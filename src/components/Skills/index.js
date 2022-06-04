@@ -94,7 +94,7 @@ export default function Skills() {
           <div className="toggleBtn"><FontAwesomeIcon icon={faArrowLeft} /></div>
         </div>
         <div className="other-skills-box">
-        <p>Other Qualities:</p>
+        <p>Soft Skilss:</p>
         <ul className="other-skills-list">
           <li className="small-skill" >-~75 WPM Typing Speed</li>
           <li className="small-skill" >-Disciplined</li>

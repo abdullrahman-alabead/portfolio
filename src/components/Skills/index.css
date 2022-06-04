@@ -1,0 +1,364 @@
+.skills {
+  position: relative;
+}
+
+.skills-boxes {
+  margin-top: 140px;
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  row-gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.skills-boxes .skill-box {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #112240;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-animation: skillFadeInDown 2s;
+          animation: skillFadeInDown 2s;
+}
+
+.skills-boxes .skill-box:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.skills-boxes .skill-box:nth-child(1) {
+  -webkit-animation: skillFadeInDown;
+          animation: skillFadeInDown;
+  -webkit-animation-duration: calc(2s + 0.1s);
+          animation-duration: calc(2s + 0.1s);
+}
+
+.skills-boxes .skill-box:nth-child(2) {
+  -webkit-animation: skillFadeInDown;
+          animation: skillFadeInDown;
+  -webkit-animation-duration: calc(2s + 0.2s);
+          animation-duration: calc(2s + 0.2s);
+}
+
+.skills-boxes .skill-box:nth-child(3) {
+  -webkit-animation: skillFadeInDown;
+          animation: skillFadeInDown;
+  -webkit-animation-duration: calc(2s + 0.3s);
+          animation-duration: calc(2s + 0.3s);
+}
+
+.skills-boxes .skill-box:nth-child(4) {
+  -webkit-animation: skillFadeInUp;
+          animation: skillFadeInUp;
+  -webkit-animation-duration: calc(2s + 0.4s);
+          animation-duration: calc(2s + 0.4s);
+}
+
+.skills-boxes .skill-box:nth-child(5) {
+  -webkit-animation: skillFadeInUp;
+          animation: skillFadeInUp;
+  -webkit-animation-duration: calc(2s + 0.5s);
+          animation-duration: calc(2s + 0.5s);
+}
+
+.skills-boxes .skill-box:nth-child(6) {
+  -webkit-animation: skillFadeInUp;
+          animation: skillFadeInUp;
+  -webkit-animation-duration: calc(2s + 0.6s);
+          animation-duration: calc(2s + 0.6s);
+}
+
+.skills-boxes .skill-box .skill-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8c98b6;
+}
+
+.skills-boxes .skill-box .skill-icon {
+  font-size: 42px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.skills-boxes .skill-box .skill-icon.html {
+  color: #e34c26;
+}
+
+.skills-boxes .skill-box .skill-icon.css {
+  color: #264de4;
+}
+
+.skills-boxes .skill-box .skill-icon.js {
+  color: #f0db4f;
+}
+
+.skills-boxes .skill-box .skill-icon.react {
+  color: #61dbfb;
+}
+
+.skills-boxes .skill-box .skill-icon.sass {
+  color: #cd6799;
+}
+
+.skills-boxes .skill-box .skill-icon.git {
+  color: #f1502f;
+}
+
+.skills-boxes .skill-box .skill-desc {
+  text-align: start;
+  font-size: 20px;
+  font-family: "Alegre Sans";
+  color: #8c98b6;
+  line-height: 1.2;
+  justify-self: flex-end;
+}
+
+.other-skills {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  padding-right: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-animation: fadeInRight 1s 1.7s forwards;
+          animation: fadeInRight 1s 1.7s forwards;
+}
+
+.other-skills .toggleS {
+  display: none;
+}
+
+.other-skills p {
+  font-size: 28px;
+  color: #fda50f;
+  margin-bottom: 20px;
+}
+
+.other-skills ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: start;
+  color: #8c98b6;
+  gap: 5px;
+  font-size: 18px;
+}
+
+.other-skills .other-skills-box::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-left: 2px solid #fda50f;
+  border-top: 2px solid #fda50f;
+}
+
+.other-skills .other-skills-box::before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-left: 2px solid #fda50f;
+  border-bottom: 2px solid #fda50f;
+}
+
+@media (max-width: 767px) {
+  .other-skills {
+    position: fixed;
+    top: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    opacity: 0;
+    right: -200px;
+    -webkit-animation: fadeIn 1s 1.7s forwards;
+            animation: fadeIn 1s 1.7s forwards;
+    color: #fda50f;
+    -webkit-transition-duration: 0.7s;
+            transition-duration: 0.7s;
+  }
+  .other-skills .toggleS {
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: -60px;
+    text-align: center;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+  }
+  .other-skills .toggleS .toggleBtn {
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  .other-skills .toggleS p {
+    font-size: 1.4rem;
+    margin: 0%;
+  }
+  .other-skills p {
+    font-size: 1.8rem;
+    color: #fda50f;
+    margin-bottom: 20px;
+  }
+  .other-skills ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: start;
+    color: #8c98b6;
+    gap: 5px;
+    font-size: 18px;
+  }
+  .other-skills .other-skills-box > p {
+    display: none;
+  }
+  .other-skills .other-skills-box::after {
+    content: "";
+    top: 0;
+    left: -15px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-left: 2px solid #fda50f;
+    border-top: 2px solid #fda50f;
+  }
+  .other-skills .other-skills-box::before {
+    content: "";
+    bottom: 0;
+    left: -15px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-left: 2px solid #fda50f;
+    border-bottom: 2px solid #fda50f;
+  }
+}
+
+@-webkit-keyframes skillFadeInDown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes skillFadeInDown {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes skillFadeInUp {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes skillFadeInUp {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+/*# sourceMappingURL=index.css.map */

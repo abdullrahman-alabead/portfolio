@@ -1,7 +1,7 @@
 import "./index.scss";
 import Elzero from "../../assets/images/Elzero-Template.png";
 import ToDo from "../../assets/images/Todo-List.png";
-import Chain from "../../assets/images/Chain-Template.png";
+import Bondi from '../../assets/images/Bondi.png'
 import Shoes from "../../assets/images/Shoes-Slider.png";
 import Meal from '../../assets/images/Meal-Gen.png'
 import Chat from '../../assets/images/Chat-App.png'
@@ -82,17 +82,17 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://whitefocus.github.io/Chain-Template/"
+          href="https://whitefocus.github.io/bondi/"
           target="_blank"
         >
           <div className="box">
-            <img src={Chain} />
+            <img src={Bondi} />
             <div className="info-box">
               <div className="project-info">
-                <h3 className="project-name">Chain Template</h3>
-                <p>an HTML, CSS & JavaScript Template</p>
+                <h3 className="project-name">Bondi Template</h3>
+                <p>Bootstrap Template</p>
                 <a
-                  href="https://github.com/whitefocus/Chain-Template"
+                  href="https://github.com/whitefocus/bondi"
                   target="blank"
                 >
                   Code Files

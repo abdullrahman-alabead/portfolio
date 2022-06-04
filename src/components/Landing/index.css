@@ -1,0 +1,203 @@
+.landing {
+  position: relative;
+  padding-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.landing p {
+  top: 400px;
+}
+
+.landing p.name {
+  font-size: 80px;
+  color: #fda50f;
+  -webkit-animation: fadeInUp 1s 0.3s forwards;
+          animation: fadeInUp 1s 0.3s forwards;
+  opacity: 0;
+}
+
+.landing p.job {
+  font-size: 40px;
+  color: #fda50f;
+  -webkit-animation: fadeInUp 1s 0.6s forwards;
+          animation: fadeInUp 1s 0.6s forwards;
+  opacity: 0;
+}
+
+.landing a {
+  opacity: 0;
+  color: #fda50f;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #fda50f;
+  position: relative;
+  -webkit-animation: fadeInUp 1s 0.9s forwards;
+          animation: fadeInUp 1s 0.9s forwards;
+}
+
+.landing a::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #133040;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  z-index: -1;
+}
+
+.landing a:hover::after {
+  width: 100%;
+}
+
+.landing .project-info {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 30px;
+  opacity: 0;
+  -webkit-animation: fadeInLeft 1s 1.7s forwards;
+          animation: fadeInLeft 1s 1.7s forwards;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing .project-info .info-header {
+  font-size: 22px;
+  color: #fda50f;
+  margin-bottom: 15px;
+}
+
+.landing .project-info ul li p {
+  color: white;
+  font-size: 18px;
+  font-family: "Alegre Sans";
+  letter-spacing: 1.5px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+.landing .project-info ul li p.depend {
+  color: #fda50f;
+  margin-top: 10px;
+  font-family: "Darkest Saturday";
+  font-size: 22px;
+  opacity: 1;
+}
+
+.landing .project-info::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border-right: 2px solid #fda50f;
+  border-top: 2px solid #fda50f;
+}
+
+.landing .project-info::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border-right: 2px solid #fda50f;
+  border-bottom: 2px solid #fda50f;
+}
+
+.landing .project-info .toggleBtn {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .landing {
+    padding-top: 7vh;
+    height: calc(100vh - 101.2px);
+  }
+  .landing p.name {
+    font-size: 3rem;
+  }
+  .landing p.job {
+    font-size: 2rem;
+  }
+  .landing .project-info {
+    position: absolute;
+    top: initial;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    padding: 2em;
+    bottom: -285px;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s 2s forwards;
+            animation: fadeIn 1s 2s forwards;
+    width: 100%;
+  }
+  .landing .project-info::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    border-right: 2px solid #fda50f;
+    border-top: 2px solid #fda50f;
+    border-top-right-radius: 5px;
+  }
+  .landing .project-info::before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-color: #fda50f transparent transparent #fda50f;
+    border-left: 2px solid #fda50f;
+    border-top: 2px solid #fda50f;
+    border-top-left-radius: 5px;
+  }
+  .landing .project-info .info-header {
+    font-size: 22px;
+    color: #fda50f;
+    margin-bottom: 15px;
+  }
+  .landing .project-info .toggleBtn {
+    color: #fda50f;
+    display: block;
+    font-size: 20px;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .landing .project-info ul li p {
+    color: white;
+    font-size: 18px;
+    font-family: "Alegre Sans";
+    letter-spacing: 1.5px;
+    padding: 5px;
+    opacity: 0.7;
+  }
+  .landing .project-info ul li p.depend {
+    color: #fda50f;
+    margin-top: 10px;
+    font-family: "Darkest Saturday";
+    font-size: 22px;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=index.css.map */

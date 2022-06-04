@@ -1,0 +1,318 @@
+.contact {
+  overflow: visible;
+}
+
+.contact .main-header .head {
+  font-size: 4rem;
+}
+
+.contact-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact-page .form-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s 1.5s forwards;
+          animation: fadeIn 1s 1.5s forwards;
+}
+
+.contact-page .form-area .form-p {
+  text-align: start;
+  color: #fda50f;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Alegre Sans";
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+.contact-page .form-area .form-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  font-family: "Alegre Sans";
+}
+
+.contact-page .form-area .form-fields input,
+.contact-page .form-area .form-fields textarea {
+  width: 100%;
+  font-family: "SF Mono";
+  color: #fda50f;
+  background-color: #112240;
+  border: none;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+.contact-page .form-area .form-fields input:focus,
+.contact-page .form-area .form-fields textarea:focus {
+  outline: none;
+}
+
+.contact-page .form-area .form-fields .name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.contact-page .form-area .form-fields .send-button {
+  padding: 15px 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #112240;
+  color: #fda50f;
+  font-size: 18px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.contact-page .form-area .form-fields .send-button::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  background-color: #fda50f;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.contact-page .form-area .form-fields .send-button:hover::after {
+  width: 100%;
+}
+
+.contact-page .form-area::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-top: 3px solid #fda50f;
+  border-right: 3px solid #fda50f;
+  top: -40px;
+  right: -40px;
+}
+
+.contact-page .form-area::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-bottom: 3px solid #fda50f;
+  border-left: 3px solid #fda50f;
+  bottom: -20px;
+  left: -40px;
+}
+
+.contact-page .quotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s 2s forwards;
+          animation: fadeIn 1s 2s forwards;
+}
+
+.contact-page .quotes .quotes-head {
+  font-size: 32px;
+  color: #fda50f;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -60px;
+  letter-spacing: 2px;
+}
+
+.contact-page .quotes .quote {
+  text-align: start;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fda50f;
+  opacity: 0.7;
+  font-family: "Tangerine";
+}
+
+.contact-page .quotes .quote::after {
+  content: attr(data-name);
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.contact-page .quotes::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-top: 3px solid #fda50f;
+  border-left: 3px solid #fda50f;
+  top: -20px;
+  left: -20px;
+}
+
+.contact-page .quotes::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-bottom: 3px solid #fda50f;
+  border-right: 3px solid #fda50f;
+  bottom: -10px;
+  right: -20px;
+}
+
+@media (max-width: 767px) {
+  .contact-page .quotes {
+    display: none;
+  }
+  .form-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    opacity: 0;
+    -webkit-animation: fadeIn 1s 1.5s forwards;
+            animation: fadeIn 1s 1.5s forwards;
+  }
+  .form-area .form-p {
+    text-align: start;
+    color: #fda50f;
+    font-size: 0.8srem;
+    font-weight: bold;
+    font-family: "Alegre Sans";
+    font-size: 1rem;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+  }
+  .form-area .form-fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    font-family: "Alegre Sans";
+  }
+  .form-area .form-fields input,
+  .form-area .form-fields textarea {
+    width: 100%;
+    font-family: "SF Mono";
+    color: #fda50f;
+    background-color: #112240;
+    border: none;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+  }
+  .form-area .form-fields input:focus,
+  .form-area .form-fields textarea:focus {
+    outline: none;
+  }
+  .form-area .form-fields .name-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+  .form-area .form-fields .send-button {
+    padding: 10px 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #112240;
+    color: #fda50f;
+    font-size: 1rem;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  .form-area .form-fields .send-button::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    background-color: #fda50f;
+    bottom: 0;
+    left: 0;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+  }
+  .form-area .form-fields .send-button:hover::after {
+    width: 100%;
+  }
+  .form-area::after {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #fda50f;
+    border-right: 3px solid #fda50f;
+    top: -40px;
+    right: -40px;
+  }
+  .form-area::before {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid #fda50f;
+    border-left: 3px solid #fda50f;
+    bottom: -20px;
+    left: -40px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
