@@ -102,26 +102,6 @@ export default function Projects() {
           </div>
         </a>
         <a
-          href="https://whitefocus.github.io/Shoes-Slider/"
-          target="_blank"
-        >
-          <div className="box">
-            <img src={Shoes} />
-            <div className="info-box">
-              <div className="project-info">
-                <h3 className="project-name">A Shoes Slider Template</h3>
-                <p>a simple Shoes Slider made with JavaScript</p>
-                <a
-                  href="https://github.com/whitefocus/Shoes-Slider"
-                  target="blank"
-                >
-                  Code Files
-                </a>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a
           href="https://whitefocus.github.io/Random-Meal-Generator/"
           target="_blank"
         >
