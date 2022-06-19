@@ -25,7 +25,7 @@ export default function About() {
     <div className="container about">
       <div className="main-header">
       <p className="head">About Me</p>
-      <p className="sub-head">Who is Nolan?</p>
+      <p className="sub-head">Who is Abdullrahman?</p>
       </div>
       <div className="my-info">
         <div className="toggleSlide" onClick={toggle}>
@@ -35,7 +35,7 @@ export default function About() {
         <ul className="q-list">
           <li className="q-box">
             <p className="question">Who Are You ?</p>
-            <p className="answer">my name is Nolan White, an Information technology Student</p>
+            <p className="answer">my name is Abdullrahman Al-Abead, an Information technology Student</p>
           </li>
           <li className="q-box">
           <p className="question">Where Are You From ?</p>

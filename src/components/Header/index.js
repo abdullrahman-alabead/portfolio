@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Header() {
   return(
     <header>
-      <Link to="/"><div className="logo">N</div></Link>
+      <Link to="/"><div className="logo">A</div></Link>
       <nav>
         <ul className="nav-links">
           <li className="link"><Link to="/about"><span>I.</span> About</Link></li>
