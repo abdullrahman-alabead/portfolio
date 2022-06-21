@@ -5,7 +5,7 @@ $main-color: #fda50f;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  height: calc(100vh - 74.18px);
   overflow: hidden;
   p {
     top: 400px;
@@ -89,7 +89,7 @@ $main-color: #fda50f;
     &::before {
       content: "";
       position: absolute;
-      bottom: 10px;
+      bottom: -10px;
       right: 0px;
       width: 40px;
       height: 40px;
