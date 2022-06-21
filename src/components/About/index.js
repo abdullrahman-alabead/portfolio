@@ -13,7 +13,7 @@ export default function About() {
       document.querySelector('.q-section').style.filter = 'blur(8px)'
 
     }else{
-      document.querySelector('.my-info').style.left = "-255px"
+      document.querySelector('.my-info').style.left = "-285px"
       document.querySelector(".toggleBtn").style.transform = "rotate(0deg)"
       document.querySelector('.q-section').style.filter = 'blur(0px)'
     }

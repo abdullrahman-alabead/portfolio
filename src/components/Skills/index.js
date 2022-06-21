@@ -16,7 +16,7 @@ export default function Skills() {
       document.querySelector('.skills-boxes').style.filter = 'blur(8px)'
 
     }else{
-      document.querySelector('.other-skills').style.right = "-200px"
+      document.querySelector('.other-skills').style.right = "-190px"
       document.querySelector(".toggleBtn").style.transform = "rotate(0deg)"
       document.querySelector('.skills-boxes').style.filter = 'blur(0px)'
     }
