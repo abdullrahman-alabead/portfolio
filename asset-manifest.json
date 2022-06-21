@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nolan-sPortfolio/static/css/main.1ff1a88c.css",
+    "main.css": "/nolan-sPortfolio/static/css/main.90f718c0.css",
     "main.js": "/nolan-sPortfolio/static/js/main.30edaeb0.js",
     "static/media/Meal-Gen.png": "/nolan-sPortfolio/static/media/Meal-Gen.a78a9991a1f6d6db1610.png",
     "static/media/Elzero-Template.png": "/nolan-sPortfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
@@ -14,11 +14,11 @@
     "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
     "static/media/under.png": "/nolan-sPortfolio/static/media/under.8ee45f176e211957437b.png",
     "index.html": "/nolan-sPortfolio/index.html",
-    "main.1ff1a88c.css.map": "/nolan-sPortfolio/static/css/main.1ff1a88c.css.map",
+    "main.90f718c0.css.map": "/nolan-sPortfolio/static/css/main.90f718c0.css.map",
     "main.30edaeb0.js.map": "/nolan-sPortfolio/static/js/main.30edaeb0.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff1a88c.css",
+    "static/css/main.90f718c0.css",
     "static/js/main.30edaeb0.js"
   ]
 }
