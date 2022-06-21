@@ -2,7 +2,6 @@ import "./index.scss";
 import Elzero from "../../assets/images/Elzero-Template.png";
 import ToDo from "../../assets/images/Todo-List.png";
 import Bondi from '../../assets/images/Bondi.png'
-import Shoes from "../../assets/images/Shoes-Slider.png";
 import Meal from '../../assets/images/Meal-Gen.png'
 import Chat from '../../assets/images/Chat-App.png'
 import Under from '../../assets/images/under.png'
