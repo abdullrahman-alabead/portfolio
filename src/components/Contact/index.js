@@ -13,7 +13,7 @@ function sendEmail(e){
 }
 
   return (
-    <div className="contact container">
+    <div className="contact container" id="contact">
       <div className="main-header">
         <p className="head">Contact Me</p>
         <p className="sub-head">Say Hello!</p>

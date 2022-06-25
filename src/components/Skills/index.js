@@ -24,7 +24,7 @@ export default function Skills() {
   }
 
   return (
-    <div className="skills container" >
+    <div className="skills container" id="skills" >
       <div className="main-header">
       <p className="head">Skills</p>
       <p className="sub-head">What can you do</p>

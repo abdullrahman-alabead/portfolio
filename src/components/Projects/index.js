@@ -9,7 +9,7 @@ import Club from '../../assets/images/the-club.png'
 
 export default function Projects() {
   return (
-    <div className="container projects">
+    <div className="container projects" id="projects">
       <div className="main-header">
         <p className="head">Projects</p>
         <p className="sub-head">What did you do?</p>

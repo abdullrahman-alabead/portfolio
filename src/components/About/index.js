@@ -22,7 +22,7 @@ export default function About() {
   
   return (
     <>
-    <div className="container about">
+    <div className="container about" id="about">
       <div className="main-header">
       <p className="head">About Me</p>
       <p className="sub-head">Who is Abdullrahman?</p>

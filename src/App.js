@@ -9,16 +9,15 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <HashRouter>
-      <Header />
-    <Routes>
-      <Route path='/' element={<Landing />} />
-      <Route path='/about'  element={<About />} />
-      <Route path='/skills'  element={<Skills />} />
-      <Route path='/projects'  element={<Projects />} />
-      <Route path='/contact'  element={<Contact />} />
-    </Routes>
-    </HashRouter>
+    <>
+    <Header />
+    <Landing />
+    <About />
+    <Projects />
+    <Skills />
+    <Contact />
+    
+    </>
   );
 }
 

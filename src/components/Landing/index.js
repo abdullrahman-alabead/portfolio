@@ -42,7 +42,7 @@ function toggle(e){
       </div>
       <p className="name">This Is Abdullrahman</p>
       <p className="job">a Front-End Developer</p>
-      <Link to="/about">Click Here To Continue</Link>
+      <a href="#about">Click Here To Continue</a>
     </div>
     )
 }

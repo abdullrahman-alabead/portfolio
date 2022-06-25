@@ -1,4 +1,7 @@
 $main-color: #fda50f;
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -14,6 +17,7 @@ ul {
 
 .container {
   padding-top: 50px;
+  padding-bottom: 100px;
   padding-right: 25px;
   padding-left: 25px;
   text-align: center;

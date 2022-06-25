@@ -4,13 +4,13 @@ import { Link } from "react-router-dom"
 export default function Header() {
   return(
     <header>
-      <Link to="/"><div className="logo">A</div></Link>
+      <div className="logo">A</div>
       <nav>
         <ul className="nav-links">
-          <li className="link"><Link to="/about"><span>I.</span> About</Link></li>
-          <li className="link"><Link to="/skills"><span>II.</span> Skills</Link></li>
-          <li className="link"><Link to="/projects"><span>III.</span> Projects</Link></li>
-          <li className="link"><Link to="/contact"><span>IV.</span> Contact</Link></li>
+          <li className="link"><a href="#about"><span>I.</span> About</a></li>
+          <li className="link"><a href="#skills"><span>II.</span> Skills</a></li>
+          <li className="link"><a href="#projects"><span>III.</span> Projects</a></li>
+          <li className="link"><a href="#contact"><span>IV.</span> Contact</a></li>
         </ul>
       </nav>
     </header>
