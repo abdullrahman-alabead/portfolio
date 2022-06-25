@@ -1,20 +1,50 @@
 import "./index.scss";
-import Elzero from "../../assets/images/Elzero-Template.png";
-import ToDo from "../../assets/images/Todo-List.png";
-import Bondi from '../../assets/images/Bondi.png'
-import Meal from '../../assets/images/Meal-Gen.png'
-import Chat from '../../assets/images/Chat-App.png'
-import Under from '../../assets/images/under.png'
-import Club from '../../assets/images/the-club.png'
+import projects from "../../assets/data/projects";
+import SkillBox from './components/SkillBox'
+import SkillPreview from "./components/SkillPreview";
 
 export default function Projects() {
+  console.log(projects.projectsDetails)
   return (
     <div className="container projects" id="projects">
       <div className="main-header">
         <p className="head">Projects</p>
-        <p className="sub-head">What did you do?</p>
+        <p className="sub-head">What can you do?</p>
       </div>
-      <div className="projects-boxes">
+      <div className="projects-container">
+        <div className="projects-icons">
+          {projects.projectsDetails.map(project => {
+            return (<SkillBox {...project} />)
+          })}
+        </div>
+        <div className="project-preview">
+          <SkillPreview />
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {/* <div className="projects-boxes">
         <a
           href="https://whitefocus.github.io/Simple-To-Do-List/"
           target="_blank"
@@ -140,7 +170,7 @@ export default function Projects() {
             </div>
           </div>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
