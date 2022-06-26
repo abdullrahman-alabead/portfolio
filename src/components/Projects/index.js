@@ -1,7 +1,8 @@
 import "./index.scss";
 import projects from "../../assets/data/projects";
 import SkillBox from './components/SkillBox'
-import SkillPreview from "./components/SkillPreview";
+import SocialProjectPreview from "./components/SocialProjectPreview";
+import ChatProjectPreview from "./components/ChatProjectPreview";
 
 export default function Projects() {
   console.log(projects.projectsDetails)
@@ -18,7 +19,7 @@ export default function Projects() {
           })}
         </div>
         <div className="project-preview">
-          <SkillPreview />
+          <ChatProjectPreview />
         </div>
       </div>
 
