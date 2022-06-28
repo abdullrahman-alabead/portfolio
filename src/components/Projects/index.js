@@ -3,6 +3,10 @@ import projects from "../../assets/data/projects";
 import SkillBox from './components/SkillBox'
 import SocialProjectPreview from "./components/SocialProjectPreview";
 import ChatProjectPreview from "./components/ChatProjectPreview";
+import TemplatePreview from "./components/TemplatePreview";
+import UnderConstructionTemplatePreview from "./components/UnderConstructionTemplatePreview";
+import BootstrapPreview from "./components/BondiTemplate";
+import ApiPreview from "./components/ApiProjectPreview";
 
 export default function Projects() {
   console.log(projects.projectsDetails)
@@ -19,7 +23,12 @@ export default function Projects() {
           })}
         </div>
         <div className="project-preview">
-          <ChatProjectPreview />
+          {/* <ApiPreview /> */}
+          {/* <TemplatePreview /> */}
+          {/* <BootstrapPreview /> */}
+          {/* <ChatProjectPreview /> */}
+          {/* <SocialProjectPreview /> */}
+          <UnderConstructionTemplatePreview />
         </div>
       </div>
 
