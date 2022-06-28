@@ -12,6 +12,40 @@ $main-color: #fda50f;
   }
   .project-preview {
     width: 50%;
+    .preview-box {
+      position: relative;
+      margin: 0 auto;
+      width: 400px;
+      height: 450px;
+      border-radius: 1rem;
+
+      .project-name {
+        position: absolute;
+        writing-mode: vertical-rl;
+        top: 1rem;
+        right: 0rem;
+        font-size: 5rem;
+        z-index: -1;
+        color: white;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        // animation-name: hideName;
+        // animation-duration: 0.5s;
+        // animation-fill-mode: forwards;
+        // animation-timing-function: ease-in-out;
+      }
+    }
+  }
+}
+
+@keyframes hideName {
+  to {
+    right: 0rem;
+  }
+}
+@keyframes showName {
+  to {
+    right: -4.5rem;
   }
 }
 

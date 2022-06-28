@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
 import './App.scss';
+import dots from './assets/images/dots.png'
 import Header from './components/Header';
 import Landing from './components/Landing';
 import About from './components/About';
@@ -10,13 +11,20 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-    <Header />
+
+
+  <Header />
     <Landing />
     <About />
     <Projects />
     <Skills />
     <Contact />
-    
+    <div class="animation-wrapper">
+  {/* <div class="particle particle-1"></div> */}
+  {/* <div class="particle particle-2"></div> */}
+  {/* <div class="particle particle-3"></div> */}
+  <div class="particle particle-4"></div>
+</div>  
     </>
   );
 }

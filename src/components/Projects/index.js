@@ -1,6 +1,7 @@
 import "./index.scss";
+import React from "react";
 import projects from "../../assets/data/projects";
-import SkillBox from './components/SkillBox'
+import SkillBox from "./components/SkillBox";
 import SocialProjectPreview from "./components/SocialProjectPreview";
 import ChatProjectPreview from "./components/ChatProjectPreview";
 import TemplatePreview from "./components/TemplatePreview";
@@ -9,7 +10,31 @@ import BootstrapPreview from "./components/BondiTemplate";
 import ApiPreview from "./components/ApiProjectPreview";
 
 export default function Projects() {
-  console.log(projects.projectsDetails)
+  let [activeProject, setActiveProject] = React.useState(0);
+  let projectsPre = [
+    <SocialProjectPreview />,
+    <ChatProjectPreview />,
+    <BootstrapPreview />,
+    <TemplatePreview />,
+    <ApiPreview />,
+    <UnderConstructionTemplatePreview />
+  ];
+
+  function changeProject(projectNum) {
+
+    document.querySelector(".project-name").style.right = "0rem"
+    setTimeout(() => {
+      setActiveProject(projectNum)
+    } , 500)
+    setTimeout(() => {
+      document.querySelector(".project-name").style.right = "-4.5rem"
+    } , 700)
+
+    
+    
+
+  }
+
   return (
     <div className="container projects" id="projects">
       <div className="main-header">
@@ -18,41 +43,12 @@ export default function Projects() {
       </div>
       <div className="projects-container">
         <div className="projects-icons">
-          {projects.projectsDetails.map(project => {
-            return (<SkillBox {...project} />)
+          {projects.projectsDetails.map((project) => {
+            return <SkillBox {...project} changeProject= {changeProject} />;
           })}
         </div>
-        <div className="project-preview">
-          {/* <ApiPreview /> */}
-          {/* <TemplatePreview /> */}
-          {/* <BootstrapPreview /> */}
-          {/* <ChatProjectPreview /> */}
-          {/* <SocialProjectPreview /> */}
-          <UnderConstructionTemplatePreview />
-        </div>
+        <div className="project-preview">{projectsPre[activeProject]}</div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       {/* <div className="projects-boxes">
         <a
