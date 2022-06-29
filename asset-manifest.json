@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/nolan-sPortfolio/static/css/main.75db15c7.css",
-    "main.js": "/nolan-sPortfolio/static/js/main.7b857679.js",
+    "main.css": "/nolan-sPortfolio/static/css/main.78a77ce2.css",
+    "main.js": "/nolan-sPortfolio/static/js/main.feb7d75c.js",
     "static/media/Meal-Gen.png": "/nolan-sPortfolio/static/media/Meal-Gen.a78a9991a1f6d6db1610.png",
     "static/media/Elzero-Template.png": "/nolan-sPortfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
     "static/media/Chat-App.png": "/nolan-sPortfolio/static/media/Chat-App.df86b8284dc0f38a4f65.png",
-    "static/media/Todo-List.png": "/nolan-sPortfolio/static/media/Todo-List.b67237993e5679840cff.png",
     "static/media/SFMonoRegular.otf": "/nolan-sPortfolio/static/media/SFMonoRegular.1d07f933cdf138950a80.otf",
+    "static/media/landing-image.png": "/nolan-sPortfolio/static/media/landing-image.86a9afa9015835441220.png",
     "static/media/the-club.png": "/nolan-sPortfolio/static/media/the-club.b0158cfd97a8d66ee2c0.png",
     "static/media/Tangerine_Regular.ttf": "/nolan-sPortfolio/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
-    "static/media/Bondi.png": "/nolan-sPortfolio/static/media/Bondi.6d8c59f364e11dbdae50.png",
+    "static/media/test.png": "/nolan-sPortfolio/static/media/test.c9b210f07e38135ee8c9.png",
     "static/media/AlegreSans-Regular.ttf": "/nolan-sPortfolio/static/media/AlegreSans-Regular.c1e01da92d3f0ffb7f66.ttf",
     "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
-    "static/media/under.png": "/nolan-sPortfolio/static/media/under.8ee45f176e211957437b.png",
     "index.html": "/nolan-sPortfolio/index.html",
-    "main.75db15c7.css.map": "/nolan-sPortfolio/static/css/main.75db15c7.css.map",
-    "main.7b857679.js.map": "/nolan-sPortfolio/static/js/main.7b857679.js.map"
+    "main.78a77ce2.css.map": "/nolan-sPortfolio/static/css/main.78a77ce2.css.map",
+    "main.feb7d75c.js.map": "/nolan-sPortfolio/static/js/main.feb7d75c.js.map"
   },
   "entrypoints": [
-    "static/css/main.75db15c7.css",
-    "static/js/main.7b857679.js"
+    "static/css/main.78a77ce2.css",
+    "static/js/main.feb7d75c.js"
   ]
 }
