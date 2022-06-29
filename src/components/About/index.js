@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
+  // small screens side info box teggle
   let [toggled, setToggled] = React.useState(false) 
 
   function toggle(){
@@ -19,6 +20,23 @@ export default function About() {
     }
     setToggled(prev => !prev)
   }
+
+  // onScroll animation
+window.addEventListener("scroll",() =>  {
+  let aboutSection = document.querySelector(".about")
+  let questions = document.querySelectorAll(".q")
+  if (window.scrollY >= aboutSection.offsetTop - (aboutSection.offsetTop / 1.5)) {
+  document.querySelector(".my-info").style.animation = "fadeIn 1s forwards"
+  for (let i = 0; i < questions.length; i++) {
+    questions[i].style.animation = `fadeInUp 1s ${i / 3}s forwards`
+  }
+  document.querySelector(".about .head").style.animation = "fadeInDown 1s forwards"
+  document.querySelector(".about .sub-head").style.animation = "fadeInDown 1s 0.3s forwards"
+
+  }
+})
+
+
   
   return (
     <>

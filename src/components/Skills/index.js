@@ -1,5 +1,5 @@
 import React from "react"
-import { faCss3, faGit, faGitAlt, faHtml5, faJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
+import { faBootstrap, faCss3, faGit, faGitAlt, faHtml5, faJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Firebase from '../../assets/images/firebase.png'
@@ -22,6 +22,21 @@ export default function Skills() {
     }
     setToggled(prev => !prev)
   }
+
+  // onScroll animation
+  window.addEventListener("scroll",() =>  {
+    let skillsSection = document.querySelector(".skills")
+    let boxes = document.querySelectorAll(".skill-box")
+    if (window.scrollY >= skillsSection.offsetTop - 400) {
+    for (let i = 0; i < boxes.length; i++) {
+      boxes[i].style.animation = `fadeIn 1s ${i / 3}s forwards`
+    }
+  
+    document.querySelector(".skills .other-skills").style.animation = "fadeIn 1s 0.5s forwards"
+    document.querySelector(".skills .head").style.animation = "fadeInDown 1s forwards"
+    document.querySelector(".skills .sub-head").style.animation = "fadeInDown 1s 0.3s forwards"
+    }
+  })
 
   return (
     <div className="skills container" id="skills" >
@@ -85,6 +100,13 @@ export default function Skills() {
         <p>Firebase</p>
           </div>
         <p className="skill-desc">Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps.</p>
+        </div>
+        <div className="skill-box">
+        <div className="skill-info">
+            <FontAwesomeIcon icon={faBootstrap} className="skill-icon git" />
+        <p>Bootstrap</p>
+          </div>
+        <p className="skill-desc">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>
         </div>
         
       </div>

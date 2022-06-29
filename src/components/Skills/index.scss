@@ -20,22 +20,23 @@ $main-color: #fda50f;
     flex-direction: column;
     justify-content: space-between;
     transition: all 0.3s ease-out;
+    opacity: 0;
     &:hover {
       transform: translateY(-10px);
     }
-    animation: skillFadeInDown 2s;
-    @for $i from 1 through 3 {
-      &:nth-child(#{$i}) {
-        animation: skillFadeInDown;
-        animation-duration: calc(2s + #{$i / 10}s);
-      }
-    }
-    @for $i from 4 through 6 {
-      &:nth-child(#{$i}) {
-        animation: skillFadeInUp;
-        animation-duration: calc(2s + #{$i / 10}s);
-      }
-    }
+    // animation: skillFadeInDown 2s;
+    // @for $i from 1 through 3 {
+    //   &:nth-child(#{$i}) {
+    //     animation: skillFadeInDown;
+    //     animation-duration: calc(2s + #{$i / 10}s);
+    //   }
+    // }
+    // @for $i from 4 through 6 {
+    //   &:nth-child(#{$i}) {
+    //     animation: skillFadeInUp;
+    //     animation-duration: calc(2s + #{$i / 10}s);
+    //   }
+    // }
     .skill-info {
       display: flex;
       gap: 10px;
@@ -90,7 +91,6 @@ $main-color: #fda50f;
   align-items: flex-start;
   justify-content: center;
   opacity: 0;
-  animation: fadeInRight 1s 1.7s forwards;
   .toggleS {
     display: none;
   }

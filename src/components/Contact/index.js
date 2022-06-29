@@ -12,6 +12,19 @@ function sendEmail(e){
     ()=> {alert("there was a problame sending your message")})
 }
 
+ // onScroll animation
+  window.addEventListener("scroll",() =>  {
+  let contactSection = document.querySelector(".contact")
+  if (window.scrollY >= contactSection.offsetTop - 400) {
+  
+
+  document.querySelector(".contact .form-area").style.animation = "fadeIn 1s 0.5s forwards"
+  document.querySelector(".contact .quotes").style.animation = "fadeIn 1s 1s forwards"
+  document.querySelector(".contact .head").style.animation = "fadeInDown 1s forwards"
+  document.querySelector(".contact .sub-head").style.animation = "fadeInDown 1s 0.3s forwards"
+  }
+})
+
   return (
     <div className="contact container" id="contact">
       <div className="main-header">

@@ -15,7 +15,6 @@ $main-color: #fda50f;
     align-items: center;
     position: relative;
     opacity: 0;
-    animation: fadeIn 1s 1.5s forwards;
     .form-p {
       text-align: start;
       color: #{$main-color};
@@ -108,7 +107,6 @@ $main-color: #fda50f;
     align-items: center;
     position: relative;
     opacity: 0;
-    animation: fadeIn 1s 2s forwards;
     .quotes-head {
       font-size: 32px;
       color: $main-color;

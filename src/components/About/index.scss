@@ -13,7 +13,6 @@ $main-color: #fda50f;
   top: 75px;
   left: 25px;
   opacity: 0;
-  animation: fadeIn 1s 2s forwards;
   .toggleSlide {
     display: none;
   }
@@ -72,16 +71,16 @@ $main-color: #fda50f;
     padding-bottom: 30px;
     text-align: start;
     opacity: 0;
-    &:first-child {
-      animation: fadeInUp 1s 1.3s forwards;
-    }
-    &:nth-child(2) {
-      animation: fadeInUp 1s 1.6s forwards;
-    }
-    &:last-child {
-      animation: fadeInUp 1s 1.9s forwards;
-      border: none;
-    }
+    // &:first-child {
+    //   animation: fadeInUp 1s 1.3s forwards;
+    // }
+    // &:nth-child(2) {
+    //   animation: fadeInUp 1s 1.6s forwards;
+    // }
+    // &:last-child {
+    //   animation: fadeInUp 1s 1.9s forwards;
+    //   border: none;
+    // }
   }
   .bQuestion {
     font-size: 22px;

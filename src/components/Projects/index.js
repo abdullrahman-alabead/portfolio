@@ -29,11 +29,22 @@ export default function Projects() {
     setTimeout(() => {
       document.querySelector(".project-name").style.right = "-4.5rem"
     } , 700)
-
-    
-    
-
   }
+
+   // onScroll animation
+  window.addEventListener("scroll",() =>  {
+  let projectsSection = document.querySelector(".projects")
+  let icons = document.querySelectorAll(".project-box")
+  if (window.scrollY >= projectsSection.offsetTop - 400) {
+  for (let i = 0; i < icons.length; i++) {
+    icons[i].style.animation = `fadeInRight 1s ${i / 3}s forwards`
+  }
+
+  document.querySelector(".project-preview").style.animation = "fadeIn 1.3s 1s forwards"
+  document.querySelector(".projects .head").style.animation = "fadeInDown 1s forwards"
+  document.querySelector(".projects .sub-head").style.animation = "fadeInDown 1s 0.3s forwards"
+  }
+})
 
   return (
     <div className="container projects" id="projects">
