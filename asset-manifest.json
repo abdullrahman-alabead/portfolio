@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/nolan-sPortfolio/static/css/main.78a77ce2.css",
-    "main.js": "/nolan-sPortfolio/static/js/main.feb7d75c.js",
-    "static/media/Meal-Gen.png": "/nolan-sPortfolio/static/media/Meal-Gen.a78a9991a1f6d6db1610.png",
-    "static/media/Elzero-Template.png": "/nolan-sPortfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
-    "static/media/Chat-App.png": "/nolan-sPortfolio/static/media/Chat-App.df86b8284dc0f38a4f65.png",
-    "static/media/SFMonoRegular.otf": "/nolan-sPortfolio/static/media/SFMonoRegular.1d07f933cdf138950a80.otf",
-    "static/media/landing-image.png": "/nolan-sPortfolio/static/media/landing-image.86a9afa9015835441220.png",
-    "static/media/the-club.png": "/nolan-sPortfolio/static/media/the-club.b0158cfd97a8d66ee2c0.png",
-    "static/media/Tangerine_Regular.ttf": "/nolan-sPortfolio/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
-    "static/media/test.png": "/nolan-sPortfolio/static/media/test.c9b210f07e38135ee8c9.png",
-    "static/media/AlegreSans-Regular.ttf": "/nolan-sPortfolio/static/media/AlegreSans-Regular.c1e01da92d3f0ffb7f66.ttf",
-    "static/media/Darkest-Saturday.ttf": "/nolan-sPortfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
-    "index.html": "/nolan-sPortfolio/index.html",
-    "main.78a77ce2.css.map": "/nolan-sPortfolio/static/css/main.78a77ce2.css.map",
-    "main.feb7d75c.js.map": "/nolan-sPortfolio/static/js/main.feb7d75c.js.map"
+    "main.css": "/portfolio/static/css/main.104bf01c.css",
+    "main.js": "/portfolio/static/js/main.15293c8b.js",
+    "static/media/Meal-Gen.png": "/portfolio/static/media/Meal-Gen.a78a9991a1f6d6db1610.png",
+    "static/media/Elzero-Template.png": "/portfolio/static/media/Elzero-Template.5f4e29de1728db34a46f.png",
+    "static/media/Chat-App.png": "/portfolio/static/media/Chat-App.df86b8284dc0f38a4f65.png",
+    "static/media/SFMonoRegular.otf": "/portfolio/static/media/SFMonoRegular.1d07f933cdf138950a80.otf",
+    "static/media/landing-image.png": "/portfolio/static/media/landing-image.86a9afa9015835441220.png",
+    "static/media/the-club.png": "/portfolio/static/media/the-club.b0158cfd97a8d66ee2c0.png",
+    "static/media/Tangerine_Regular.ttf": "/portfolio/static/media/Tangerine_Regular.0c7bd62c32fee407ecee.ttf",
+    "static/media/test.png": "/portfolio/static/media/test.c9b210f07e38135ee8c9.png",
+    "static/media/AlegreSans-Regular.ttf": "/portfolio/static/media/AlegreSans-Regular.c1e01da92d3f0ffb7f66.ttf",
+    "static/media/Darkest-Saturday.ttf": "/portfolio/static/media/Darkest-Saturday.55035e1f04cdc2d78585.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.104bf01c.css.map": "/portfolio/static/css/main.104bf01c.css.map",
+    "main.15293c8b.js.map": "/portfolio/static/js/main.15293c8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.78a77ce2.css",
-    "static/js/main.feb7d75c.js"
+    "static/css/main.104bf01c.css",
+    "static/js/main.15293c8b.js"
   ]
 }
