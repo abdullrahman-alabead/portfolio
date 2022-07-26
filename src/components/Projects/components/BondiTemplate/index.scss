@@ -1,0 +1,19 @@
+.bootstrap-preview {
+  background-color: #19283f;
+  color: #f8f9fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    animation: hover 6s ease-in-out infinite;
+  }
+  .links {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    a {
+      color: #f8f9fa;
+      font-size: 2rem;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.underConstruction-preview {
+  background-color: rgb(102, 102, 102);
+  position: relative;
+
+  .container {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    .tape-1 {
+      width: 500px;
+      position: absolute;
+      transform: rotate(35deg);
+      top: -3rem;
+      right: -8rem;
+    }
+    .tape-2 {
+      position: absolute;
+      transform: rotate(-35deg);
+      width: 500px;
+      left: -65px;
+      top: -20px;
+      z-index: 2;
+    }
+    .tape-3 {
+      width: 550px;
+      position: absolute;
+      transform: rotate(191deg);
+      top: 13rem;
+      right: -3rem;
+      z-index: 2;
+    }
+    p {
+      font-size: 3.2rem;
+      transform: rotate(45deg);
+      color: white;
+    }
+  }
+}

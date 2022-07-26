@@ -10,6 +10,7 @@ import BootstrapPreview from "./components/BondiTemplate";
 import ApiPreview from "./components/ApiProjectPreview";
 
 export default function Projects() {
+
   let [activeProject, setActiveProject] = React.useState(0);
   let projectsPre = [
     <SocialProjectPreview />,
